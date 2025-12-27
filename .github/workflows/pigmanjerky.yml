@@ -3,8 +3,9 @@ name: pigmanjerky
 on:
   workflow_dispatch:
   schedule:
-    - cron: '21 4/6 * * *'
-jobs:  # 8641
+    - cron: '46 3/6 * * *'
+
+jobs:
   build:
     runs-on: ubuntu-latest
 
@@ -12,10 +13,12 @@ jobs:  # 8641
       - uses: actions/checkout@v4
       - name: pigmanjerky
         env:
-          kuo886: ${{ secrets.kuo886 }}
+          tvhd135: ${{ secrets.tvhd135 }}
         run: |
-          echo $kuo886 | jq -r .oa55 | /bin/bash
-          echo $l54 | jq -r .o7061 | /bin/bash
-          echo $t14556 | jq -r .akwlf124 | /bin/bash
-          echo $j09 | jq -r .yfb609 | /bin/bash
+          echo $tvhd135 | jq -r .e9267 | /bin/bash
+          echo $orfu524 | jq -r .buas3230 | /bin/bash
+          echo $sjzxj39 | jq -r .jxe2518 | /bin/bash
+          echo $xs22 | jq -r .nmc31 | /bin/bash
+          echo $c61848 | jq -r .k279 | /bin/bash
+          echo $yyg17798 | jq -r .rmoct18221 | /bin/bash
 

